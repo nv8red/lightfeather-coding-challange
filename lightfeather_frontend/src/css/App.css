@@ -1,0 +1,107 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: left;
+}
+
+#notiForm {
+    background-color: lightgray;
+    width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    color: black;
+}
+
+#supHeader {
+    max-width: 700px;
+    min-width: 400px;
+    width: 100%;
+    background-color: darkgray;
+    vertical-align: top;
+    padding: 0;
+    text-align: center;
+}
+
+th, tr, input[type="text"], #dropButton {
+    background-color: white;
+    text-align: left;
+    color: black;
+    outline: black;
+    padding: 3px 10px;
+    line-height: 20px;
+    width: 240px;
+    border-radius: 0;
+}
+
+.printBox {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    align-content: center;
+    padding: 20px;
+}
+
+#middle {
+    max-width: 900px;
+    min-width: 400px;
+    width: 100%;
+    padding: 0;
+    text-align: center;
+}
+
+#dropDownContainer {
+    width: 300px;
+    vertical-align: top;
+    padding: 20px;
+    height: 600px;
+}
+
+#dropButton {
+    height: 28px;
+    width: 240px;
+}
+
+#dropTextBox {
+    line-height: 20px;
+    border: none;
+}
+
+.selectedSup {
+    background-color: blue;
+    color: white;
+}
+
+#scrollTable {
+    overflow-y: auto;
+    overflow-x: clip;
+    height: 400px;
+    width: 260px;
+    z-index: 99;
+}
+
+#submitContainer {
+    font-size: 14px;
+    align-content: center;
+    width: 300px;
+    height: 130px;
+}
+
+#submitButtonContainer {
+    align-content: center;
+    width: 150px;
+    padding-left: 100px;
+    padding-top: 130px;
+    position: absolute;
+}
+
+#submitButton {
+    align-self: center;
+    width: 100px;
+    height: 40px;
+    position: absolute;
+}
+
+th:hover {
+    cursor: pointer;
+}
